@@ -1,0 +1,34 @@
+{
+  "customer_id": "811980000000730002",
+  "date": "2026-09-15",
+  "reference_number": "af246a55-3e43-4a5f-a768-c005d0a71dad-2026-09-15-DAILY",
+  "line_items": [
+    {
+      "item_id": null,
+      "quantity": 1,
+      "rate": 700.0,
+      "description": "Membership Purchase | AllUp Transaction: e196f234-6a10-4351-92da-c989f39a0de3 | Member: 0d7e1156-9739-4449-9f0a-5a07d273b750"
+    },
+    {
+      "item_id": null,
+      "quantity": 1,
+      "rate": 700.0,
+      "description": "Membership Purchase | AllUp Transaction: e196f234-6a10-4351-92da-c989f39a0de3 | Member: 0d7e1156-9739-4449-9f0a-5a07d273b750"
+    }
+  ],
+  // "custom_fields": [
+  //   {
+  //     "label": "AllUp Gym ID",
+  //     "value": "af246a55-3e43-4a5f-a768-c005d0a71dad"
+  //   },
+  //   {
+  //     "label": "Batch ID",
+  //     "value": "af246a55-3e43-4a5f-a768-c005d0a71dad-2026-09-15-DAILY"
+  //   },
+  //   { "label": "Batch Date", "value": "2026-09-15" },
+  //   {
+  //     "label": "AllUp Transaction IDs",
+  //     "value": "e196f234-6a10-4351-92da-c989f39a0de3,e196f234-6a10-4351-92da-c989f39a0de3"
+  //   }
+  // ]
+}
