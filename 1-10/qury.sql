@@ -35,5 +35,8 @@ FROM [MHI_ZAMAN_POLAR].[dbo].[Attendance]
 WHERE eventTime >= '2026-09-01 00:00:00' 
   AND eventTime < '2026-09-05 00:00:00'
   AND Terminal IN (1,2,3,4,5,6,7,10,11,12,13,14,15,8,9)
-  AND employeeID = '10002'
+  AND employeeID = '10021'
 ORDER BY eventTime DESC
+
+
+AND employeeID = '10002'

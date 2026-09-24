@@ -98,7 +98,6 @@ CONFIG.put("ZOHO_PAYMENT_ACCOUNT_ID","");
 // PAGINATION
 // -----------------------------------------------------------------------------
 //
-// Deluge does not need an unbounded while loop here.
 //
 // We check a fixed maximum number of pages.
 // The loop stops early when:
@@ -217,7 +216,6 @@ currentBatch = List();
 // ----------------------------------------------------------------------------
 // Helper-less batching: accumulate IDs into currentBatch, and every time it
 // reaches customerBatchSize, resolve it immediately and reset the batch.
-// This avoids a while loop (not supported in Deluge) while still chunking
 // requests instead of sending one call per customerId.
 // ----------------------------------------------------------------------------
 for each  cIdToBatch in uniqueCustomerIds
